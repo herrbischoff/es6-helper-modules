@@ -7,7 +7,7 @@
  * @param {number} ms milliseconds
  * @returns {number} seconds
  */
-let msToSec = (ms) => {
+let msToSec = ms => {
   let s = ((ms % 60000) / 1000).toFixed(2);
   return s;
 };

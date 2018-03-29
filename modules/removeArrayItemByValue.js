@@ -4,8 +4,11 @@
  * @param {Array} array
  * @returns {Array}
  */
-let removeArrayItemByValue = function (array) {
-  var what, a = arguments, L = a.length, ax;
+let removeArrayItemByValue = function(array) {
+  var what,
+    a = arguments,
+    L = a.length,
+    ax;
   while (L > 1 && array.length) {
     what = a[--L];
     while ((ax = array.indexOf(what)) !== -1) {
